@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background-color: #afced3;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.icefont {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.navbar>.item {
+    padding: 1.5em !important;
+}
+
+.ui.menu {
+    margin: 0;
+    border-radius: 0;
+}
+
+.masthead {
+    min-height: 30em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 2.4em;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.masthead h2 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.card {
+    border-radius: 0 !important;
+    word-wrap: break-word;
+    min-height: 10em !important;
+}
+
+.plugins,
+.ui.segment.plugins {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.ui.segment.masthead {
+    background: #7ebac9 url('/images/iceplugins.png') no-repeat;
+    background-size: 400px;
+    background-position: right 6vw bottom -125px;
+}
+
+.footer {
+    background-color: #7ebac9 !important;
+    padding: 2em !important;
+}
+
+.footer-text {
+    color: rgba(255,255,255,.9) !important;
+}
+
+@media only screen 
+  and (max-device-width: 812px) 
+  and (orientation: portrait) { 
+    .ui.segment.masthead {
+        background: #7ebac9;
+    }
+}
+
+.guideline {
+    color: black;
+}
+
+.depressed {
+    background-color: white !important;
+    color: black !important;
+}
+
+.card-button {
+    font-weight: 600;
+}
+.card>.content>.description {
+    font-size: 1.1em;
+}
+
+.inner-segment {
+    border-radius: 0 !important;
+    border: none !important;
+    min-height: 80vh;
+}
+
+.expand-to-bottom {
+    min-height: 80vh;
+}
+
+.about-text {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.panel-button {
+    min-width: 100%;
+    margin-bottom: 0.4em !important;
+}
+
+@media  screen and (min-width: 1800px) {
+    .plugin-rail-small {
+        display: none;
+    }
+}
+
+
+@media  screen and (max-width: 1800px) {
+    .plugin-rail {
+        display: none;
+    }
+}
