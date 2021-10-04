@@ -4,16 +4,16 @@ url: "https://iceplugins.xyz" # the base hostname & protocol for your site, e.g.
 markdown: kramdown
 permalink: /:title/
 
-title: IcePlugins
-description: An Unturned Plugin repository with free and open source plugins.
-author: ExtraConcentratedJuice
-logo: https://iceplugins.xyz/favicon.png
+title: Nerdy Gamers
+description: A Plugin/Script repository for Ultima Online, Rust, and Unturned.
+author: JBob
+logo: https://nerdygamers.github.io/favicon.png
 
 defaults:
   - scope:
       path: ""
     values:
-      image: https://iceplugins.xyz/favicon.png
+      image: https://nerdygamers.github.io/favicon.png
 
 plugins:
   - jekyll-seo-tag
