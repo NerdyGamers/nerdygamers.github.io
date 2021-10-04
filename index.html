@@ -13,7 +13,7 @@ layout: default
                         <h3><a href="{{ post.url }}" style="color: inherit;">{{ post.title | truncate: 40 }}</a></h3>
                     </div>
                     <div class="meta nerdfont">
-                        <span>by {% if post.author %}{{ post.author }}{% else %}JBob/Ragnarok{% endif %}</span>
+                        <span>by {% if post.author %}{{ post.author }}{% else %}JBob{% endif %}</span>
                     </div>
                     <div class="description nerdfont">
                         <p>{% if post.description_short %}{{ post.description_short }}{% else %}{{ post.description | strip_html | strip_newlines | truncate: 170 }}{% endif %}</p>
